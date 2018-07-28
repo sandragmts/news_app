@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#F0E7D8</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#BA6E6E</color>
+
+    <!-- Accent color of the app -->
+    <color name="colorAccent">#9E9E9E</color>
+
+    <!-- Text color for the details of the news in the list item -->
+    <color name="textColorNewsDetails">#1D1A31</color>
+
+</resources>

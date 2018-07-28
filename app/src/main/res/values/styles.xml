@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F0E7D8</item>
+        <item name="colorPrimaryDark">#BA6E6E</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Styles news_item_layout.xml Views -->
+
+    <style name="title_TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/candelabold</item>
+        <item name="android:textColor">@color/textColorNewsDetails</item>
+        <item name="android:textSize">@dimen/title_text</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="info">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/candelaitalic</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+</resources>

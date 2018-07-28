@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">The Guardian - News</string>
+    <string name="section_Name" tanslatable="false">sectionName</string>
+
+    <string name="no_news">There\'s nothing new</string>
+    <string name="no_connection">"Check internet connection"</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <!-- for section preferences -->
+    <string name="settings_section_label">Category</string>
+    <string name="settings_section_key" translatable="false">Section</string>
+    <string name="settings_section_default" translatable="false">culture</string>
+
+    <!-- Music option -->
+    <string name="settings_music_label">Music</string>
+    <string name="settings_music_value" translatable="false">music</string>
+
+    <!-- Culture option -->
+    <string name="settings_culture_label">Culture</string>
+    <string name="settings_culture_value" translatable="false">culture</string>
+
+    <!-- Science option -->
+    <string name="settings_science_label">Science</string>
+    <string name="settings_science_value" translatable="false">science</string>
+
+    <!-- Tech option -->
+    <string name="settings_lifestyle_label">Life And Style</string>
+    <string name="settings_lifestyle_value" translatable="false">lifeandstyle</string>
+
+    <!-- for date preferences -->
+    <!-- Order by choirce settings -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">orderBy</string>
+    <string name="settings_order_by_default" translatable="false">newest</string>
+
+    <!-- Oldest -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Newest -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+</resources>

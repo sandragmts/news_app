@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <!-- Card View / Card View Layout -->
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="@dimen/small_dimen"
+        app:cardElevation="@dimen/medium_small_dimen"
+        card_view:cardUseCompatPadding="true">
+
+        <!-- Title -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/medium">
+
+
+            <TextView
+                android:id="@+id/newsTitle"
+                style="@style/title_TextView" />
+
+            <!-- Date and Time Layout -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/date"
+                    style="@style/info"/>
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_toRightOf="@id/date"
+                    android:layout_marginLeft="@dimen/medium_small_dimen"
+                    style="@style/info" />
+
+            </RelativeLayout>
+
+            <!-- Author TextView -->
+
+            <TextView
+                android:id="@+id/author"
+                style="@style/info" />
+
+            <!-- Tag Layout -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/extra_small_dimen">
+
+                <ImageView
+                    android:id="@+id/tag"
+                    android:layout_width="@dimen/medium_large"
+                    android:layout_height="@dimen/medium_large"
+                    android:src="@drawable/tag" />
+
+                <TextView
+                    android:id="@+id/news_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/extra_small_dimen"
+                    android:layout_toRightOf="@id/tag"
+                    android:fontFamily="@font/candelabold"
+                    android:textSize="@dimen/regular_text"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dp values -->
+    <dimen name="extra_small_dimen">2dp</dimen>
+    <dimen name="small_dimen">4dp</dimen>
+    <dimen name="medium_small_dimen">8dp</dimen>
+    <dimen name="medium">16dp</dimen>
+    <dimen name="medium_large">20dp</dimen>
+
+    <!-- Sp values -->
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="regular_text">16sp</dimen>
+    <dimen name="title_text">20sp</dimen>
+
+</resources>
